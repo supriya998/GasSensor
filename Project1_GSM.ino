@@ -41,7 +41,7 @@ void loop() {
 void SendMessage1() {
   mySerial.println("AT+CMGF=1\r");
   delay(1000);
-  mySerial.println("AT+CMGS=\"+918464097939\"\r");
+  mySerial.println("AT+CMGS=\"+91xxxxxxxxxx\"\r");
   delay(1000);
   mySerial.println("Gas is leaking.....");
   Serial.println("Message Sent...");
@@ -52,7 +52,7 @@ void SendMessage1() {
 void SendMessage2() {
   mySerial.println("AT+CMGF=1\r");
   delay(1000);
-  mySerial.println("AT+CMGS=\"+917893070686\"\r");
+  mySerial.println("AT+CMGS=\"+91xxxxxxxxxx\"\r");
   delay(1000);
   mySerial.println("Gas is leaking.....");
   Serial.println("Message Sent...");
