@@ -61,12 +61,12 @@ void SendMessage2() {
   delay(1000);
 }
 void makeCall1(){
-  mySerial.println("ATD+918464097939;");
+  mySerial.println("ATD+91xxxxxxxxxx;");
   Serial.println("Calling...");
   delay(10000);
 }
 void makeCall2(){
-  mySerial.println("ATD+917893070686;");
+  mySerial.println("ATD+91xxxxxxxxxx;");
   Serial.println("Calling...");
   delay(10000);
 }
